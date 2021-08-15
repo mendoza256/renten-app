@@ -1,7 +1,7 @@
 console.log('console works');
 
 //eintritt in rente
-const rente = new Date(2022, 06, 30).getTime();
+const rente = new Date(2022, 07, 01).getTime();
 
 let x = setInterval(function() {
     // heute
