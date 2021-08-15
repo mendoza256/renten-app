@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* stix-two-text-regular - latin */
+/* stix-two-text-regular - latin */
+@font-face {
+    font-family: 'STIX Two Text';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/stix-two-text-v1-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/stix-two-text-v1-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/stix-two-text-v1-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/stix-two-text-v1-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('fonts/stix-two-text-v1-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/stix-two-text-v1-latin-regular.svg#STIXTwoText') format('svg'); /* Legacy iOS */
+  }
+  
+  /* stix-two-text-700 - latin */
+  @font-face {
+    font-family: 'STIX Two Text';
+    font-style: normal;
+    font-weight: 700;
+    src: url('fonts/stix-two-text-v1-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('fonts/stix-two-text-v1-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/stix-two-text-v1-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/stix-two-text-v1-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('fonts/stix-two-text-v1-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/stix-two-text-v1-latin-700.svg#STIXTwoText') format('svg'); /* Legacy iOS */
+  }
+  
+  
+  
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.countdown {
+    min-width: 375px;
+    /* border: 1px solid red; */
+    font-family: 'STIX Two Text', serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
