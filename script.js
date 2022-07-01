@@ -1,7 +1,7 @@
 console.log('console works');
 
 //datum - eintritt in rente
-const rente = new Date("Jul 02, 2022").getTime();
+const rente = new Date("Jul 01, 2022").getTime();
 
 // emojis
 const funEmojis = ["1F60D", "1F929", "1F917", "1F973", "1F920", "1F60E", "1F4AB", "1F918", "1F64C", "1F3CC", "1F99C", "1F490", "1F375", "1F37E", "1F942", "1F3DD", "1F3D6", "1F31F", "1F389", "1F388", "1F3C6", "1F947", "26F3"];
@@ -25,7 +25,7 @@ const x = setInterval(function() {
     document.getElementById("countdown").innerHTML = `Hallo Papa, nur noch <br><br>${weeks} Wochen <br>${days} Tage <br><br>bis zu deiner Rente! &#x${randomEmoji}`;
 
     if (difference <= 0) {
-        document.getElementById("countdown").innerHTML = "Alles Liebe zum Eintritt in die wohlverdiente Rente! :)"
+        document.getElementById("countdown").innerHTML = `Herzlichen Glückwunsch zum Eintritt<br>in die wohlverdiente Rente! &#x${randomEmoji}`;
     }
 }, 1000);
 
